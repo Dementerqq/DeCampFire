@@ -1,0 +1,6 @@
+name: DeCampFire
+version: '1.0'
+main: me.dementerqq.deCampFire.DeCampFire
+api-version: '1.21'
+authors: [ Dementerqq ]
+description: Upgrade vanilla campfire

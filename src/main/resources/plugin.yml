@@ -1,6 +1,21 @@
 name: DeCampFire
-version: '1.0'
+version: '1.1'
 main: me.dementerqq.deCampFire.DeCampFire
 api-version: '1.21'
 authors: [ Dementerqq ]
-description: Upgrade vanilla campfire
+description: "Upgrade vanilla campfire"
+
+commands:
+  decampfire:
+    description: "Control DeCampFire"
+    usage: /decampfire reload
+    permission: decampfire.admin
+    permission-message: "У вас нету права использовать данную команду!"
+    aliases:
+      - dcf
+
+
+permissions:
+  decampfire.admin:
+    description: "Разрешает использовать команду /decampfire"
+    default: op

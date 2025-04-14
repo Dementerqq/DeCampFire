@@ -1,0 +1,5 @@
+prefix: "&8[&aPrefix&8]"   # Placeholder: {prefix}
+
+campfire_fire: "&cВы загорелись от костра!"
+regen_text: "{prefix}"
+regen_subtitle: "&aТы почувствовал уют..."   # Если send_type: title
